@@ -1,6 +1,6 @@
-COMMON_VERSION := "0.0.6"
+COMMON_VERSION := "0.0.7"
 
-common: start_common fmt lint tidy end_common all
+common: start_common fmt lint tidy end_common
 
 start_common:
 	@echo "** running common targets: v$(COMMON_VERSION) **"
