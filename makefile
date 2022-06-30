@@ -1,4 +1,4 @@
-COMMON_VERSION := "0.0.5"
+COMMON_VERSION := "0.0.6"
 
 common: start_common fmt lint tidy end_common all
 
